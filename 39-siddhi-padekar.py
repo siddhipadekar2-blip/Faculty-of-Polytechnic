@@ -28,6 +28,7 @@ def numbers (n):
 numbers(a)
 numbers(b)
 numbers(c)
+
 #problem 4
 a=[1,2,3]
 def print_list(list):
@@ -55,4 +56,14 @@ print(d["vijay"])
 d={"ram":30,"vijay":40,"radha":60}
 d.update({"tom":2,"don":10})
 print(d)
+#solution3
+s = {'a','b','c','d','e','f','g','h','i','j','k','l',
+     'm','n','o','p','q','r','s','t','u','v','w','x','y','z'}
 
+c = 0
+
+for x in s:
+    if x not in ('a','e','i','o','u'):
+        c += 1
+
+print(c)
