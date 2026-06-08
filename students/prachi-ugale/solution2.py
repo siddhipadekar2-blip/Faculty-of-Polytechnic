@@ -1,3 +1,4 @@
+#problem 1
 def greet(): 
     n=input("enter your name:")
     a=int(input("enter your age:"))
