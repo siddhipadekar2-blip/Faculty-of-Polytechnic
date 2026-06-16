@@ -1,8 +1,18 @@
-Asks the user for their **name** (a string).
-2. Asks the user for their **age** (an integer).
-3. Asks the user for their **city** (a string).
-4. Asks the user for their **favourite programming language** (a string).
-5. Asks the user for how many **years** they've been coding (an integer).
-6. Prints a nicely formatted, multi-line bio block using f-strings.
+def about_me():
+    name = input("What is your name? ")
+    age = int(input("How old are you? "))
+    city = input("Which city are you from? ")
+    language = input("Favourite programming language? ")
+    years = int(input("How many years have you been coding? "))
+    print()
+    print("=" * 40)
+    print("            ABOUT ME")
+    print("=" * 40)
+    print(f"Name:      {name}")
+    print(f"Age:       {age}")
+    print(f"City:      {city}")
+    print(f"Codes in:  {language}")
+    print(f"Coding for {years} years.")
+    print("=" * 40)
 
-Use the exact layout shown below so your output matches the expected behaviour
+about_me()
