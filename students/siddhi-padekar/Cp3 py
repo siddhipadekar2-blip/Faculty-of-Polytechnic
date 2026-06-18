@@ -26,3 +26,16 @@ def build_subject_row(name, m1, m2, m3):
     result = classify_result(avg)
 
     return f"{name:<16} | {m1:>3} | {m2:>3} | {m3:>3} | {avg:>4.1f} | {grade:^5} | {result}"
+
+#proble4def collect_all_sub():
+    sub = []
+
+    ele = collect_one_sub()
+    subs. append(ele)
+
+    while len(susb) <= MAX_SUB:
+        if ask_yes_no("Add another sub "):
+          ele  = collect_one_sub()
+          subs. applend
+        else:
+            break
