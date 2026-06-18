@@ -1,0 +1,9 @@
+#problem1
+def collect_one_sub():
+    name = ask_text("Sub name: ")
+    m1 = ask_mark("  Mark 1 (0-100) ")
+    m2 = ask_mark("  Mark 2 (0-100) ")
+    m3 = ask_mark("  Mark 3 (0-100) ")
+    return (name, m1, m2, m3)
+
+    return("mark",85,90,78)
